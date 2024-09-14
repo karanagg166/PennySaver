@@ -5,5 +5,5 @@ const asyncHandler = (fn) => (req, res, next) => {
     return res.status(500).json({ error: "Unexpected Internal Server Error!" });
   });
 };
-
+// made by karan agg
 export default asyncHandler;
