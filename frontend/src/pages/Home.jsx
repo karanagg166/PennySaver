@@ -6,7 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 
 import NavBar from "../components/NavBar";
 
-import dashboard from "../assets/dashboard.webp";
+import dashboard from "./pennysaver.jpeg";
 import { StartNow, ThreeDots } from "../utils/Icons";
 
 const Home = () => {
@@ -62,7 +62,7 @@ const Home = () => {
         />
         <div className="hidden sm:flex justify-center items-center mt-4">
           <Link
-            to="https://github.com/SaxenaShourya/spend-smart"
+            to="https://github.com/karanagg166/PennySaver"
             target="_blank"
           >
             <Button color="primary" radius="sm">
